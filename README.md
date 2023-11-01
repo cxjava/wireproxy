@@ -28,6 +28,14 @@ anything.
 - UDP Support in SOCKS5
 - UDP static routing
 
+# Install
+```shell
+#install to /usr/local/bin
+sudo wget -O - https://raw.githubusercontent.com/cxjava/wireproxy/main/install.sh | sh
+#install to other folder: ./bin
+sudo wget -O - https://raw.githubusercontent.com/cxjava/wireproxy/main/install.sh | sh -s -- -b ./bin
+```
+
 # Usage
 ```
 ./wireproxy -c [path to config]
