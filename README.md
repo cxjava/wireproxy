@@ -30,10 +30,13 @@ anything.
 
 # Install
 ```shell
+
+#install to /usr/local/bin please check this tool: https://github.com/jpillora/installer
+curl https://i.jpillora.com/cxjava/wireproxy! | bash
+
 #install to /usr/local/bin
 sudo wget -O - https://raw.githubusercontent.com/cxjava/wireproxy/main/install.sh | sh
-#install to other folder: ./bin
-sudo wget -O - https://raw.githubusercontent.com/cxjava/wireproxy/main/install.sh | sh -s -- -b ./bin
+
 ```
 
 # Usage
